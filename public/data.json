@@ -1,0 +1,111 @@
+[
+    {
+      "id": 1,
+      "image": "https://example.com/donation1.jpg",
+      "title": "Education Fund",
+      "description": "Support education initiatives in underserved communities.",
+      "price": 500,
+      "category": "Education",
+      "color": "Blue"
+    },
+    {
+      "id": 2,
+      "image": "https://example.com/donation2.jpg",
+      "title": "Hunger Relief",
+      "description": "Provide meals to those facing food insecurity.",
+      "price": 250,
+      "category": "Food",
+      "color": "Green"
+    },
+    {
+      "id": 3,
+      "image": "https://example.com/donation3.jpg",
+      "title": "Healthcare Support",
+      "description": "Donate to medical clinics serving low-income communities.",
+      "price": 1000,
+      "category": "Health",
+      "color": "Red"
+    },
+    {
+      "id": 4,
+      "image": "https://example.com/donation4.jpg",
+      "title": "Environmental Conservation",
+      "description": "Contribute to efforts to protect the environment.",
+      "price": 300,
+      "category": "Clothing",
+      "color": "Orange"
+    },
+    {
+      "id": 5,
+      "image": "https://example.com/donation5.jpg",
+      "title": "Arts & Culture Support",
+      "description": "Support local arts and cultural organizations.",
+      "price": 400,
+      "category": "Health",
+      "color": "Purple"
+    },
+    {
+      "id": 6,
+      "image": "https://example.com/donation6.jpg",
+      "title": "Animal Welfare",
+      "description": "Help animals in need through animal shelters and rescue programs.",
+      "price": 200,
+      "category": "Food",
+      "color": "Yellow"
+    },
+    {
+      "id": 7,
+      "image": "https://example.com/donation7.jpg",
+      "title": "Disaster Relief",
+      "description": "Provide emergency assistance to disaster-affected areas.",
+      "price": 750,
+      "category": "Health",
+      "color": "Pink"
+    },
+    {
+      "id": 8,
+      "image": "https://example.com/donation8.jpg",
+      "title": "Community Development",
+      "description": "Support initiatives to strengthen communities.",
+      "price": 600,
+      "category": "Clothing",
+      "color": "Brown"
+    },
+    {
+      "id": 9,
+      "image": "https://example.com/donation9.jpg",
+      "title": "Clean Water Project",
+      "description": "Help provide access to clean and safe drinking water.",
+      "price": 350,
+      "category": "Education",
+      "color": "Teal"
+    },
+    {
+      "id": 10,
+      "image": "https://example.com/donation10.jpg",
+      "title": "Youth Empowerment",
+      "description": "Empower young people through education and mentorship.",
+      "price": 550,
+      "category": "Food",
+      "color": "Lime"
+    },
+    {
+      "id": 11,
+      "image": "https://example.com/donation11.jpg",
+      "title": "Elderly Care",
+      "description": "Support programs for the elderly in need of care.",
+      "price": 450,
+      "category": "Clothing",
+      "color": "Cyan"
+    },
+    {
+      "id": 12,
+      "image": "https://example.com/donation12.jpg",
+      "title": "Human Rights",
+      "description": "Advocate for human rights and social justice.",
+      "price": 700,
+      "category": "Education",
+      "color": "Magenta"
+    }
+  ]
+  
