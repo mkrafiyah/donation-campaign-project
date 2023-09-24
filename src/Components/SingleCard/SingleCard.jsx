@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 
 const SingleCard = ({ singleCard }) => {
-    const {title, category, image} = singleCard;
+    const {id, title, category, image} = singleCard;
     return (
         
-            <div className=" flex justify-center">
+         <Link to={`/featuredCard/${id}`}>   <div className=" flex justify-center">
             <div className="card card-compact   bg-base-100 shadow-xl">
                 <figure><img src={image} alt="Shoes" /></figure>
                 <div className="card-body ">
@@ -11,7 +12,7 @@ const SingleCard = ({ singleCard }) => {
                     <h2 className="card-title">{title}</h2>    
                 </div>
             </div>
-        </div>
+        </div></Link>
         
     );
 };
