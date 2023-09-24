@@ -1,13 +1,12 @@
 import { Outlet } from "react-router-dom";
 import NavBar from "../NavBar/NavBar";
-import Banner from "../Banner/Banner";
+
 
 
 const Root = () => {
     return (
-        <div className="max-w-7xl px-8 py-5">
-            <NavBar></NavBar>
-            <Banner></Banner>
+        <div className="">
+            <div className="pl-0 lg:pl-5"><NavBar></NavBar></div>
             <Outlet></Outlet>
         </div>
     );

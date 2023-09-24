@@ -23,7 +23,7 @@ const NavBar = () => {
     <a className="btn btn-ghost normal-case text-xl"><img className="w-40" src="../../../public/images/Logo.png" alt="" /></a>
   </div>
   <div className="navbar-end hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
+    <ul className="menu menu-horizontal ">
       {links}
     </ul>
   </div>
