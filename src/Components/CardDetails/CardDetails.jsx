@@ -16,21 +16,12 @@ const CardDetails = () => {
         toast("Thank You!Your donation is successful");
     }
     return (
-        // <div className="flex justify-center">
-        //     <div className="card w-96 bg-base-100 shadow-xl">
-        //         <figure><img className="w-full" src={card.image} alt="Shoes" /></figure>
-        //         <div className="card-body">
-        //             <h2 className="card-title">{card.title}</h2>
-        //             <p>{card.description}</p>
-                    
-        //         </div>
-        //     </div>
-        // </div>
-        <div className="max-w-screen-md flex justify-center mx-auto">
-            <div>
-            <div><img className="w-full" src={card.image} alt="" /></div>
-            <div className="py-8 bg-slate-950  opacity-70"><button onClick={handleClick} className="bg-red-500 btn">donate ${card.price}</button></div>
-            <div>
+        
+        <div className="w-3/4 flex justify-center mx-auto pb-6 mt-6">
+            <div className="">
+            <div className="relative w-300px"><img className="w-full" src={card.image} alt="" /></div>
+            <div className=" w-3/4 h-24 bg-black absolute opacity-60 mb-10"><button style={{background:card.color.button}} onClick={handleClick} className="py-3 px-4 rounded-md ml-4 mt-4 text-white">Donate ${card.price}</button></div>
+            <div className="mt-24">
                 <h2 className="text-3xl">{card.title}</h2>
                 <p>{card.description}</p>
             </div>

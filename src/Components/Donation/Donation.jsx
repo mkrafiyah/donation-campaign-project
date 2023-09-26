@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-import { createContext, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import { getSaveCard } from "../Utility/LocalStorage";
 
@@ -21,29 +21,18 @@ const Donation = () => {
   return (
     <div>
       
-      <div className="max-w-7xl px-10 py-8">
-        <ul className="grid grid-cols-2 gap-3">
+      <div className="max-w-sm lg:max-w-7xl px-10 py-8 ">
+        <ul className="grid grid-cols-1 lg:grid-cols-2 gap-3">
           {
             cardDetailStored.slice(0, dataLength).map(card => <li key={card.id}>
-              {/* <div className="card card-side bg-base-100 shadow-xl">
-                <figure className="contain"><img  src={card.image} alt="Movie" /></figure>
-                <div className="card-body">
-                  <button className="card-actions">{card.category}</button>
-                  <h2 className="card-title">{card.title}</h2>
-                  <p>${card.price}</p>
-                  <div className="card-actions">
-                    <button className="btn btn-primary">View Details</button>
-                  </div>
-                  
-                </div>
-              </div> */}
-              <div className="flex w-4/5 gap-3 border bg-slate-100 p-5">
-                <div className="w-2/5 "><img className="w-full" src={card.image} alt="" /></div>
-                <div className="w-2/5">
-                  <button>{card.category}</button>
-                  <h2>{card.title}</h2>
-                  <p>{card.price}</p>
-                  <button>View Price</button>
+              
+              <div style={{background:card.color.category}} className="flex w-[300px] md:w-[500px] h-[270px] gap-3 border bg-slate-100 p-1 lg:p-5 rounded-md">
+                <div><img className="w-full h-full" src={card.image} alt="" /></div>
+                <div   className="flex-grow-1 ml-3">
+                  <button style={{background:card.color.category, color:card.color.text}} className="btn ">{card.category}</button>
+                  <h2 className="text-xl font-semibold">{card.title}</h2>
+                  <p style={{color:card.color.text}} className="font-semibold">${card.price}</p>
+                  <button style={{background:card.color.button}} className="btn text-white">View Price</button>
                 </div>
               </div>
             </li>)

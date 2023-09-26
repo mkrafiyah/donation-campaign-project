@@ -6,7 +6,13 @@
       "description": "Your donation will provide scholarships to bright but financially disadvantaged students, giving them access to quality education and a chance to fulfill their academic dreams.",
       "price": 500,
       "category": "Education",
-      "color": "Blue"
+      "color": {
+        "category": "#ff444a33",
+        " card": "#ff444a26",
+        "text": "#FF444A",
+        "button": "#FF444A"
+
+      }
     },
     {
       "id": 2,
@@ -15,7 +21,12 @@
       "description": "Help us provide emergency food relief to families facing hunger. Your donation will ensure that no one goes to bed hungry, offering comfort and hope during challenging times.",
       "price": 250,
       "category": "Food",
-      "color": "Green"
+      "color": {
+        "category": "#f8714733",
+        " card": "#f8714700",
+        "text": "#F87147",
+        "button": "#F87147"
+      }
     },
     {
       "id": 3,
@@ -24,7 +35,12 @@
       "description": "Join our initiative to provide mental health support and counseling to individuals facing emotional challenges. Your donation will promote mental well-being and resilience.",
       "price": 1000,
       "category": "Health",
-      "color": "Red"
+      "color": {
+        "category": "#52ff0026",
+        " card": "#52ff0033",
+        "text": "#0052FF",
+        "button": "#0052FF"
+      }
     },
     {
       "id": 4,
@@ -33,7 +49,12 @@
       "description": "Support students as they head back to school by donating school uniforms and clothing essentials. Your donation will ensure that every child has the clothing they need to focus on their education.",
       "price": 300,
       "category": "Clothing",
-      "color": "Orange"
+      "color": {
+        "category": "#79c23f33",
+        " card": "#79c23f26",
+        "text": "#79C23F",
+        "button": "#79C23F"
+      }
     },
     {
       "id": 5,
@@ -42,7 +63,12 @@
       "description": "Help us provide access to healthcare services for underserved communities. Your donation will fund medical clinics and outreach programs, improving the well-being of those in need.",
       "price": 400,
       "category": "Health",
-      "color": "Purple"
+      "color": {
+        "category": "#52ff0026",
+        " card": "#52ff0033",
+        "text": "#0052FF",
+        "button": "#0052FF"
+      }
     },
     {
       "id": 6,
@@ -51,7 +77,12 @@
       "description": "Support our mission to provide nutritious meals to underprivileged children. Your contribution will help these young minds grow strong and focus on their education.",
       "price": 200,
       "category": "Food",
-      "color": "Yellow"
+      "color": {
+        "category": "#f8714733",
+        " card": "#f8714700",
+        "text": "#F87147",
+        "button": "#F87147"
+      }
     },
     {
       "id": 7,
@@ -60,7 +91,12 @@
       "description": "Support our healthcare heroes on the frontlines by donating essential medical supplies. Your contribution will ensure they have the protective gear and tools they need to save lives.",
       "price": 750,
       "category": "Health",
-      "color": "Pink"
+      "color": {
+        "category": "#52ff0026",
+        " card": "#52ff0033",
+        "text": "#0052FF",
+        "button": "#0052FF"
+      }
     },
     {
       "id": 8,
@@ -69,7 +105,12 @@
       "description": "Empower job seekers by donating professional clothing. Your contribution will provide suits, dresses, and business attire to help individuals make a great first impression during interviews.",
       "price": 600,
       "category": "Clothing",
-      "color": "Brown"
+      "color": {
+        "category": "#79c23f33",
+        " card": "#79c23f26",
+        "text": "#79C23F",
+        "button": "#79C23F"
+      }
     },
     {
       "id": 9,
@@ -78,7 +119,13 @@
       "description": "Support children in remote areas by providing essential educational supplies like textbooks, notebooks, and stationery. Your contribution will bridge the educational gap.",
       "price": 350,
       "category": "Education",
-      "color": "Teal"
+      "color": {
+        "category": "#ff444a33",
+        " card": "#ff444a26",
+        "text": "#FF444A",
+        "button": "#FF444A"
+
+      }
     },
     {
       "id": 10,
@@ -87,7 +134,12 @@
       "description": "Join us in expanding our community food pantry, which serves individuals and families in need. Your donation will stock our shelves with essential food items, ensuring no one goes without a meal.",
       "price": 550,
       "category": "Food",
-      "color": "Lime"
+      "color": {
+        "category": "#f8714733",
+        " card": "#f8714700",
+        "text": "#F87147",
+        "button": "#F87147"
+      }
     },
     {
       "id": 11,
@@ -96,7 +148,12 @@
       "description": "Join our clothing drive to provide warm winter clothing to those in need. Your donation will help keep individuals and families cozy during the cold months ahead.",
       "price": 450,
       "category": "Clothing",
-      "color": "Cyan"
+      "color": {
+        "category": "#79c23f33",
+        " card": "#79c23f26",
+        "text": "#79C23F",
+        "button": "#79C23F"
+      }
     },
     {
       "id": 12,
@@ -105,7 +162,12 @@
       "description": "Help improve the quality of education by funding teacher training programs. Your donation will empower educators with new teaching methods and enhance the learning experience for students.",
       "price": 700,
       "category": "Education",
-      "color": "Magenta"
+      "color": {
+        "category": "#ff444a33",
+        " card": "#ff444a26",
+        "text": "#FF444A",
+        "button": "#FF444A"
+      }
     }
   ]
   

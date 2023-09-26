@@ -30,16 +30,16 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
     };
  
     return (
-        <div className='py-10 flex justify-center'>
-            <ResponsiveContainer width={600} height={600}>
-             <PieChart width={400} height={400}>
+        <div className='w-[100px] lg:w-[300px] lg:mx-auto pl-0 ml-0'>
+            <ResponsiveContainer width={400} height={400}>
+             <PieChart width={300} height={300}>
             <Pie data={data}
             cx='50%'
             cy = '50%'
             labelLine= {false}
             label= {renderCustomizedLabel}
             dataKey="donations" 
-            outerRadius={200} 
+            outerRadius={150} 
             fill="#8884d8" > 
             {data.map((entry, index) => (
                 <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
