@@ -9,8 +9,7 @@ const CardDetails = () => {
     const { id } = useParams();
     const idInt = parseInt(id);
     const card = cardDetail.find(card => card.id === idInt);
-    console.log(card)
-
+    
     const handleClick = () =>{
         saveCard(idInt);
         toast("Thank You!Your donation is successful");
@@ -18,11 +17,14 @@ const CardDetails = () => {
     return (
         
         <div className="w-3/4 flex justify-center mx-auto pb-6 mt-6">
-            <div className="">
-            <div className="relative w-300px"><img className="w-full" src={card.image} alt="" /></div>
-            <div className=" w-3/4 h-24 bg-black absolute opacity-70 mb-10"><button style={{background:card.color.button}} onClick={handleClick} className="py-3 px-4 rounded-md ml-4 mt-4 text-white">Donate ${card.price}</button></div>
-            <div className="mt-24">
-                <h2 className="text-3xl">{card.title}</h2>
+            <div>
+            <div className="relative w-[300px] lg:w-[600px]"><img className="w-full" src= {card.image} alt="" />
+           
+            <div className=" w-[300px] lg:w-[600px] h-24 absolute mb-10 bg-black bg-opacity-70"><button style={{background:card.color.button}} onClick={handleClick} className="py-3 px-4 rounded-md ml-4 mt-4 text-white">Donate ${card.price}</button></div>
+            </div>
+            
+            <div className="mt-24 w-[300px] lg:w-[600px]">
+                <h2 className="text-3xl pt-7 font-bold pb-3">{card.title}</h2>
                 <p>{card.description}</p>
             </div>
             </div>

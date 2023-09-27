@@ -1,11 +1,36 @@
 import { NavLink } from "react-router-dom";
 
-
 const NavBar = () => {
     const links = <>
-        <li><NavLink to='/'>Home</NavLink></li>
-        <li><NavLink to='/donation'>Donation</NavLink></li>
-        <li><NavLink to='/statistics'>Statistics</NavLink></li>
+    
+        <li><NavLink to='/' 
+         style={({ isActive, isPending }) => {
+          return {
+            fontWeight: isActive ? "bold" : "",
+            color: isActive ? "red" : "black",
+            textDecoration: isActive ? "underline" : "",
+            background: isActive ? "white" : "",
+            fontSize: isPending ? "18px" : "15px"
+              };
+        }}>Home</NavLink></li>
+        <li><NavLink to='/donation' style={({ isActive, isPending }) => {
+          return {
+            fontWeight: isActive ? "bold" : "",
+            color: isActive ? "red" : "black",
+            textDecoration: isActive ? "underline" : "",
+            background: isActive ? "white" : "",
+            fontSize: isPending ? "18px" : "15px"
+              };
+        }}>Donation</NavLink></li>
+        <li><NavLink to='/statistics' style={({ isActive, isPending }) => {
+          return {
+            fontWeight: isActive ? "bold" : "",
+            color: isActive ? "red" : "black",
+            textDecoration: isActive ? "underline" : "",
+            background: isActive ? "white" : "",
+            fontSize: isPending ? "18px" : "15px"
+              };
+        }}>Statistics</NavLink></li>
     </>
     return (
         <div>
@@ -20,10 +45,11 @@ const NavBar = () => {
         
       </ul>
     </div>
-    <a className="btn btn-ghost normal-case text-xl"><img className="w-40" src="../../../public/images/Logo.png" alt="" /></a>
+    <a className="btn btn-ghost normal-case text-xl"><img className="w-40" src='https://i.ibb.co/GRyRb31/Logo.png' alt="" /></a>
+    
   </div>
   <div className="navbar-end hidden lg:flex">
-    <ul className="menu menu-horizontal ">
+      <ul className="menu menu-horizontal ">
       {links}
     </ul>
   </div>

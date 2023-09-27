@@ -36,7 +36,7 @@
       "price": 1000,
       "category": "Health",
       "color": {
-        "category": "#52ff0026",
+        "category": "#0052ff26",
         " card": "#52ff0033",
         "text": "#0052FF",
         "button": "#0052FF"
@@ -64,7 +64,7 @@
       "price": 400,
       "category": "Health",
       "color": {
-        "category": "#52ff0026",
+        "category": "#0052ff26",
         " card": "#52ff0033",
         "text": "#0052FF",
         "button": "#0052FF"
@@ -92,7 +92,7 @@
       "price": 750,
       "category": "Health",
       "color": {
-        "category": "#52ff0026",
+        "category": "#0052ff26",
         " card": "#52ff0033",
         "text": "#0052FF",
         "button": "#0052FF"

@@ -8,6 +8,7 @@ const Root = () => {
         <div className="">
             <div className="pl-0 lg:pl-5"><NavBar></NavBar></div>
             <Outlet></Outlet>
+            
         </div>
     );
 };

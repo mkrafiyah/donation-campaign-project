@@ -1,11 +1,6 @@
-
-import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { PieChart, Pie, Tooltip, Cell, Legend, ResponsiveContainer} from 'recharts';
 import { getSaveCard } from '../Utility/LocalStorage';
-
-
-
 
 const Statistics = () => {
     const cards = useLoaderData();
@@ -30,7 +25,7 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
     };
  
     return (
-        <div className='w-[100px] lg:w-[300px] lg:mx-auto pl-0 ml-0'>
+        <div className='flex justify-center items-center'>
             <ResponsiveContainer width={400} height={400}>
              <PieChart width={300} height={300}>
             <Pie data={data}

@@ -21,8 +21,8 @@ const Donation = () => {
   return (
     <div>
       
-      <div className="max-w-sm lg:max-w-7xl px-10 py-8 ">
-        <ul className="grid grid-cols-1 lg:grid-cols-2 gap-3">
+      <div className="max-w-sm lg:max-w-7xl px-10 py-8 ml-3 md:ml-14 lg:ml-10">
+        <ul className="grid grid-cols-1 lg:grid-cols-2 gap-3  ">
           {
             cardDetailStored.slice(0, dataLength).map(card => <li key={card.id}>
               
